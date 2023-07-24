@@ -1,0 +1,48 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+  padding: 4rem 0;
+  text-align: center;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.heroBanner > * {
+  word-break: keep-all;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 3rem 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.downloadSection {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.logo {
+  transform: scale(1.5);
+  margin-bottom: 2rem;
+
+  user-select: none;
+  -moz-user-select: none;
+}
