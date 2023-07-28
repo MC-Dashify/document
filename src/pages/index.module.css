@@ -11,16 +11,14 @@
   align-items: center;
   padding: 4rem 0;
   text-align: center;
+
+  @media screen and (max-width: 996px) {
+    padding: 3rem 2rem;
+  }
 }
 
 .heroBanner > * {
   word-break: keep-all;
-}
-
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 3rem 2rem;
-  }
 }
 
 .buttons {
@@ -44,7 +42,6 @@
 
 .downloadSection {
   @media (max-width: 996px) {
-    flex-direction: column !important;
     margin-bottom: calc(4rem + 16px);
   }
 
