@@ -6,7 +6,7 @@ import Link from '@docusaurus/Link';
 export default function Launcher() {
   return (
     <Layout description='Launcher 설치하기'>
-      <main className={styles.mainSection}>
+      <main className={`${styles.mainSection} ${styles.launcherMain}`}>
         <header className={styles.header}>
           <h1 className={styles.heading}>Launcher 다운로드</h1>
           <h2 className={styles.subheading}>

@@ -83,3 +83,10 @@
 .imageSlider > div {
   background-color: transparent !important;
 }
+
+.launcherMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
