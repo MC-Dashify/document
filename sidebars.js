@@ -16,12 +16,16 @@ const sidebars = {
           items: [
             'usage/launcher/getting-started',
             'usage/launcher/server-configuration',
+            'usage/launcher/advanced',
           ],
         },
         {
           type: 'category',
           label: '클라이언트',
-          items: ['usage/client/getting-started'],
+          items: [
+            'usage/client/getting-started',
+            'usage/client/server-profiles',
+          ],
         },
       ],
     },
