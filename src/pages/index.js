@@ -25,17 +25,17 @@ function HomepageHeader() {
 
 export default function Home() {
   return (
-    <Layout description='Description will go into a meta tag in <head />'>
+    <Layout description='Minecraft 서버 모니터링을 쉽고 빠르게'>
       <HomepageHeader />
       <hr className={`${styles.divider}`} />
       <main className={`${styles.rightSection}`}>
         <div className={styles.downloadSection}>
           <h1 className={styles.downloadHeader}>다운로드</h1>
           <div className={styles.buttons}>
-            <Link className='button button--lg' to='#'>
+            <Link className='button button--lg' to='/downloads/launcher'>
               Launcher 다운로드
             </Link>
-            <Link className='button button--lg' to='#'>
+            <Link className='button button--lg' to='/downloads/client'>
               Client 다운로드
             </Link>
           </div>

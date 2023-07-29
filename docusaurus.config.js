@@ -80,6 +80,21 @@ const config = {
             ],
           },
           {
+            type: 'dropdown',
+            position: 'right',
+            label: '다운로드',
+            items: [
+              {
+                label: '런쳐',
+                to: '/downloads/launcher',
+              },
+              {
+                label: '클라이언트',
+                to: '/downloads/client',
+              },
+            ],
+          },
+          {
             href: 'https://github.com/MC-Dashify/document',
             label: '깃허브',
             position: 'right',
