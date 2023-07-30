@@ -26,7 +26,7 @@ jobs:
       - name: Install dependencies
         run: yarn install --prod --pure-lockfile
       - name: Build
-        run: USE_SIMPLE_CSS_MINIFIER=true yarn build
+        run: USE_SIMPLE_CSS_MINIFIER=true yarn build --no-minify
         env:
           NODE_ENV: production
           CI: false
