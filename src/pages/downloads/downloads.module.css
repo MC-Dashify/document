@@ -67,12 +67,15 @@
 }
 
 .screenshot {
-  @media (max-width: 996px) {
-    display: none;
-  }
   width: 100%;
   text-align: center;
   animation: fadeIn 1s ease-in-out;
+}
+
+.screenshot * {
+  @media (max-width: 996px) {
+    display: none;
+  }
 }
 
 .imageSlider * {

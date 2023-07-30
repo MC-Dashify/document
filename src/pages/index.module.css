@@ -12,8 +12,9 @@
   padding: 4rem 0;
   text-align: center;
 
-  @media screen and (max-width: 996px) {
+  @media (max-width: 996px) {
     padding: 3rem 2rem;
+    flex-direction: column;
   }
 }
 
