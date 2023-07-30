@@ -56,11 +56,11 @@ code {
 }
 
 .main-wrapper {
-  @media (max-width: 996px) {
-    flex-direction: column !important;
-  }
   display: flex;
   align-items: stretch;
   flex-direction: row !important;
+  @media (max-width: 996px) {
+    flex-direction: column !important;
+  }
   justify-content: center;
 }
