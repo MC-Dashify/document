@@ -25,6 +25,7 @@ const sidebars = {
           items: [
             'usage/client/getting-started',
             'usage/client/server-profiles',
+            'usage/client/using-client'
           ],
         },
       ],
