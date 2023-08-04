@@ -36,7 +36,7 @@ export default function Client() {
       );
 
       fetchData.data.assets.forEach((asset) => {
-        if (asset.name.endsWith('x64-setup.exe')) {
+        if (asset.name.endsWith('_x64_en-US.msi')) {
           assetsObject['Windows'] = asset.browser_download_url;
         } else if (asset.name.endsWith('aarch64.dmg')) {
           assetsObject['ARM Mac'] = asset.browser_download_url;
@@ -98,9 +98,9 @@ export default function Client() {
         ) : isFetched ? (
           <>
             <Link to={downloadUrl}>
-              <button className={`${styles.downloadLatestButton} button`}>
-                {`${operatingSystem}용 다운로드`}
-              </button>
+              <button
+                className={`${styles.downloadLatestButton} button`}
+              >{`${operatingSystem}용 다운로드`}</button>
             </Link>
             <span>또는</span>
             <Link to={'https://github.com/MC-Dashify/client/releases/latest'}>
