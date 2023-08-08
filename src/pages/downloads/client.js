@@ -6,7 +6,7 @@ import Link from '@docusaurus/Link';
 import axios from 'axios';
 import SimpleImageSlider from 'react-simple-image-slider';
 
-const operatingSystemList = ['Windows', 'Linux', 'Intel Mac', 'ARM Mac'];
+const operatingSystemList = ['Windows', 'Linux', 'Mac'];
 
 export default function Client() {
   const operatingSystem = useOperatingSystem();
@@ -97,11 +97,26 @@ export default function Client() {
           </>
         ) : isFetched ? (
           <>
-            <Link to={downloadUrl}>
-              <button
-                className={`${styles.downloadLatestButton} button`}
-              >{`${operatingSystem}용 다운로드`}</button>
-            </Link>
+            {operatingSystem === 'Mac' ? (
+              <>
+                <Link to={downloadAssets['Intel Mac']}>
+                  <button className={`${styles.downloadLatestButton} button`}>
+                    {'Intel Mac용 다운로드'}
+                  </button>
+                </Link>
+                <Link to={downloadAssets['ARM Mac']}>
+                  <button className={`${styles.downloadLatestButton} button`}>
+                    {'ARM Mac용 다운로드'}
+                  </button>
+                </Link>
+              </>
+            ) : (
+              <Link to={downloadUrl}>
+                <button
+                  className={`${styles.downloadLatestButton} button`}
+                >{`${operatingSystem}용 다운로드`}</button>
+              </Link>
+            )}
             <span>또는</span>
             <Link to={'https://github.com/MC-Dashify/client/releases/latest'}>
               <button className={`button ${styles.secondaryDownloadButton}`}>

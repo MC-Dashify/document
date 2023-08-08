@@ -9,10 +9,8 @@ export default function useOperatingSystem() {
       setOperatingSystem('Windows');
     } else if (userAgent.includes('Linux')) {
       setOperatingSystem('Linux');
-    } else if (userAgent.includes('Intel Mac')) {
-      setOperatingSystem('Intel Mac');
-    } else if (userAgent.includes('ARM Mac')) {
-      setOperatingSystem('ARM Mac');
+    } else if (userAgent.includes('Macintosh')) {
+      setOperatingSystem('Mac');
     } else {
       setOperatingSystem('Unknown');
     }
