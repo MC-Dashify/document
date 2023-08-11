@@ -12022,7 +12022,7 @@ __webpack_require__.r(__webpack_exports__);
         },
         {
           "href": "https://github.com/MC-Dashify/document",
-          "label": "깃허브",
+          "label": "GitHub",
           "position": "right"
         },
         {
@@ -12050,7 +12050,7 @@ __webpack_require__.r(__webpack_exports__);
           "items": [
             {
               "label": "깃허브",
-              "href": "https://github.com/MC-Dashify/document"
+              "href": "https://github.com/MC-Dashify"
             }
           ]
         }
