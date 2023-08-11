@@ -96,7 +96,7 @@ const config = {
           },
           {
             href: 'https://github.com/MC-Dashify/document',
-            label: '깃허브',
+            label: 'GitHub',
             position: 'right',
           },
           {
@@ -121,7 +121,7 @@ const config = {
             items: [
               {
                 label: '깃허브',
-                href: 'https://github.com/MC-Dashify/document',
+                href: 'https://github.com/MC-Dashify',
               },
             ],
           },
