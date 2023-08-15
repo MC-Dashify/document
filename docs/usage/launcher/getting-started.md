@@ -12,4 +12,4 @@
 
 런처 파일을 실행하시려면 다른 프로그램을 실행하듯이 런처를 실행하시면 됩니다.
 
-서버의 구성 설정을 수정하시려면 [서버 런처 구성 설정](/docs/usage/launcher/server-configuration)을 참고해주세요.
+서버의 구성 설정을 수정하시려면 [서버 런처 구성 설정](/docs/usage/launcher/server-configuration)을 참고해 주세요.
