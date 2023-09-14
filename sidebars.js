@@ -25,7 +25,22 @@ const sidebars = {
           items: [
             'usage/client/getting-started',
             'usage/client/server-profiles',
-            'usage/client/using-client'
+            {
+              type: 'category',
+              label: '서버 대시보드',
+              link: {
+                type: 'doc',
+                id: 'usage/client/dashboard/index',
+              },
+              items: [
+                'usage/client/dashboard/overview',
+                'usage/client/dashboard/stats',
+                'usage/client/dashboard/worlds',
+                'usage/client/dashboard/players',
+                'usage/client/dashboard/traffic',
+                'usage/client/dashboard/console',
+              ]
+            }
           ],
         },
       ],
