@@ -45,6 +45,24 @@ const sidebars = {
         },
       ],
     },
+    {
+      type: 'category',
+      label: '개발',
+      link: {
+        type: 'doc',
+        id: 'dev/index',
+      },
+      items: [
+        {
+          type: 'category',
+          label: 'API',
+          items: [
+            'dev/api/launcher',
+            'dev/api/plugin',
+          ],
+        },
+      ]
+    }
   ],
 };
 
